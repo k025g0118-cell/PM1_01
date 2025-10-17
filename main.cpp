@@ -10,6 +10,11 @@ struct Vector2 {
 	float y;
 };
 
+struct Circle {
+	Vector2 pos;
+	Vector2 radius;
+	unsigned int color;
+};
 //------------------------------
 
 // Windowsアプリでのエントリーポイント(main関数)

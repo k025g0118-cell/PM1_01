@@ -13,7 +13,6 @@ struct Vector2 {
 struct Circle {
 	Vector2 pos;
 	Vector2 radius;
-	unsigned int color;
 };
 //------------------------------
 

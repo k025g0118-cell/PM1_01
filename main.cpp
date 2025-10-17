@@ -2,6 +2,16 @@
 
 const char kWindowTitle[] = "ワタナベ_ユウシ_タイトル";
 
+//------------------------------
+//構造体
+//------------------------------
+struct Vector2 {
+	float x;
+	float y;
+};
+
+//------------------------------
+
 // Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 
